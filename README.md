@@ -5,7 +5,7 @@ Project Zoa is a python-based ecosystem(Biology) simulation.
 The GUI is based on Tkinter library. 
 
 The goal is 1) to simulate and visualize highschool biology concepts such as natural selection, evolution, and population curve.
-            2) to develop a strong Zoa AI, adjusting the parameter by genetic algorithm
+            2) to develop a somewhat intelligent Zoa AI, adjusting the parameter by genetic algorithm
             
 ## Running
 Simply run the file EcoSystem.py
@@ -46,6 +46,7 @@ Moving while in hibernation costs less health.
 
 Reproduction and Mutation: Any non-hibernated Zoa has a percentage chance to reproduce another Zoa with its genetic + a little random mutation. 
 
-##Visualization
+## Visualization
+
 Simply run the Jupyter Notebook. Make sure you have the dataset.csv file generated.
 
