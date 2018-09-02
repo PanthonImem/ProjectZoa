@@ -7,7 +7,10 @@ The GUI is based on Tkinter library.
 The goal is 1) to simulate and visualize highschool biology concepts such as natural selection, evolution, and population curve.
             2) to develop a strong Zoa AI, adjusting the parameter by genetic algorithm
             
-Concepts: 
+## Running
+Simply run the file EcoSystem.py
+            
+## Concepts: 
 There are two type of objects in this ecosystem. 
 
 1. Food:
@@ -38,5 +41,11 @@ vector towards each food. This is intended to serve as
 Note: A momentum factor has also been added to prevent the zoa from  being indecisive in the middle of a few Foods.
 (Once it moves toward one food, the aggregate vector switches direction and so the Zoa oscillate)
 
-#Will continue writing when I have time
+Hibernation: When a Zoa can't find food in its sight, it picks a random direction and move there. 
+Moving while in hibernation costs less health. 
+
+Reproduction and Mutation: Any non-hibernated Zoa has a percentage chance to reproduce another Zoa with its genetic + a little random mutation. 
+
+##Visualization
+Simply run the Jupyter Notebook. Make sure you have the dataset.csv file generated.
 
